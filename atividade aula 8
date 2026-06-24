@@ -1,0 +1,67 @@
+#atividae 1
+
+num = int(input('digite seu numero'))
+if num > 0:
+    print('numero é positivo')
+elif num < 0:
+    print('negativo')
+elif num >= 10:
+    print('numero é maior que 10')
+elif num == 0:
+    print('seu numeroo é zero')
+
+ #atividade 2
+idade = int(input('fale sua idade'))
+
+if idade >=18:
+    print('voce deve votar')
+elif idade == 16:
+    print('voce pode votar')
+else:
+    print('voce nao pode votar')
+
+    #atividade 3 
+n1 = int(input('Fale seu numero'))
+
+if n1 % 2 ==0:
+    print('seu numero é par')
+else:
+    print('seu numero é impar')
+
+#atividae 4
+l1 = int(input('digite um lado'))
+l2 = int(input('digite um lado'))
+l3 = int(input('digite um lado'))
+
+if l1 == l2 == l3 == l1:
+    print('equilátero')
+
+elif l1 != l2 != l3 !=l1:
+    print('escaleno')
+
+else:
+    print('isósceles')
+
+#atividade 5
+n1 = int(input('digite seu numero'))
+
+if n1 > 0 and n1 % 5 == 0 and n1 > 0 and n1 % 7 ==0:
+    print('seu numero é divido por 5 ou 7')
+else:
+    print('seu numero nao é divisivel por 7 ou 5')
+
+#atividade 6
+numero = int(input('digite um numero'))
+
+if numero > 10:
+    print("O número é positivo e maior que 10.")
+else:
+    print("O número não atende aos requisitos.")
+
+#atividade 7
+numero = int(input("Digite um número: "))
+
+if numero % 3 == 0 or numero % 5 == 0:
+    print('é divisível por 3 ou por 5.')
+else:
+    print('nao e divisivel por 3 nem por 5')
